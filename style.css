@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#login{
+    margin-left: 40%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+#email{
+    position: relative;
+    padding: 3%;
+    width: 50%;
+    border: none;
+    border-radius:15px ;
+
+}
+#submit
+{
+    font-size: 17px;
+    position:relative;
+    padding: 2.5%;
+    margin-right: 10px;
+    width: 57%;
+    background: #e74c3c;
+    border:none;
+    color: #fff;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#submit:hover{
+    background: #c0392b;
+}
+#forget1{
+    position: relative;
+    left:0%;
+    font-size: 18px;
+    color: black;
+}
+#photo{
+    margin-bottom: 5%;
+    margin-left:90px ;
+}
